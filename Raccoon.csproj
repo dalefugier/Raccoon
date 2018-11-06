@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\bin\Client\</OutputPath>
+    <OutputPath>bin\Client\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
@@ -26,14 +26,14 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseClient|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\bin\Client\</OutputPath>
+    <OutputPath>bin\Client\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'DebugAdmin|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
-    <OutputPath>..\bin\Admin\</OutputPath>
+    <OutputPath>bin\Admin\</OutputPath>
     <DefineConstants>TRACE;DEBUG;ADMIN</DefineConstants>
     <DebugType>full</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,7 +42,7 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseAdmin|AnyCPU'">
-    <OutputPath>..\bin\Admin\</OutputPath>
+    <OutputPath>bin\Admin\</OutputPath>
     <DefineConstants>TRACE;ADMIN</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>pdbonly</DebugType>
